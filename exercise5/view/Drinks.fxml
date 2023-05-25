@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #88D7FF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DrinksController">
+   <cursor>
+      <Cursor fx:constant="OPEN_HAND" />
+   </cursor>
+   <children>
+      <ImageView fitHeight="346.0" fitWidth="600.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/mariobackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="97.0" layoutX="38.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/tubenimario.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="131.0" layoutX="244.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/rootbeer.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="131.0" layoutX="483.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/moutaindew.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="131.0" layoutX="122.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/milktea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="97.0" layoutX="139.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/tubenimario.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="131.0" layoutX="370.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/yakult.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="97.0" layoutX="252.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/tubenimario.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="97.0" layoutX="370.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/tubenimario.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="97.0" layoutX="479.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/tubenimario.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="sojubtn" layoutX="64.0" layoutY="298.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: transparent;" text="Soju" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="rootbeerbtn" layoutX="268.0" layoutY="298.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: transparent;" text="RootBeer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="moutaindewbtn" layoutX="480.0" layoutY="298.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: transparent;" text="Moutaindew" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="yakultbtn" layoutX="394.0" layoutY="298.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: transparent;" text="Yakult" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="milkteabtn" layoutX="160.0" layoutY="298.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: transparent;" text="Milktea" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutY="-5.0" prefHeight="88.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="161.0" layoutY="13.0" prefHeight="62.0" prefWidth="438.0" text="Drinks ni Sneakybooger" textFill="#eb0a0a">
+               <font>
+                  <Font name="Copperplate Gothic Light" size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="130.0" fitWidth="131.0" layoutX="22.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/soju.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="167.0" layoutX="6.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/labelmario.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
